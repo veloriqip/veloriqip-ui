@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://veloriqip.com
+
+# Sitemaps
+Sitemap: https://veloriqip.com/sitemap.xml

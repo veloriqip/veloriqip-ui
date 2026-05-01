@@ -1,0 +1,145 @@
+[
+  {
+    "id": 101,
+    "title": "Full Stack Developer (Next.js)",
+    "department": "Engineering",
+    "location": "Hybrid",
+    "employmentType": "Full-time",
+    "experience": "2–5 years",
+    "reportingTo": "Engineering Lead",
+
+    "summary": "We are looking for a skilled Full Stack Developer to build and maintain scalable, modern web applications. The role involves working across frontend, backend integration, and deployment, with a focus on performance, usability, and clean architecture.",
+
+    "responsibilities": [
+      "Develop and maintain modern web applications using Next.js and React",
+      "Build responsive and accessible user interfaces using HTML, CSS, JavaScript, and Tailwind CSS",
+      "Integrate frontend applications with backend APIs and services",
+      "Work with application architecture concepts such as SSR, CSR, ISR, and authentication flows",
+      "Manage deployment workflows, environment configurations, and build optimizations",
+      "Collaborate with cross-functional teams on code reviews and technical discussions",
+      "Debug, optimize, and maintain production-grade applications"
+    ],
+
+    "requirements": [
+      "Strong proficiency in JavaScript (ES6+)",
+      "Hands-on experience with React.js and Next.js",
+      "Solid understanding of HTML5, CSS3, and Tailwind CSS",
+      "Familiarity with full stack and frontend architecture principles",
+      "Experience with Git and collaborative development workflows",
+      "Basic knowledge of deployment platforms such as Netlify or Vercel"
+    ],
+
+    "preferredQualifications": [
+      "Experience with backend development using Node.js",
+      "Knowledge of Docker and containerized application workflows",
+      "Basic cloud platform familiarity (AWS, GCP, or Azure)",
+      "Experience working with databases such as MongoDB or PostgreSQL",
+      "Exposure to CI/CD pipelines and production monitoring"
+    ],
+
+    "keySkills": [
+      "React",
+      "Next.js",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Problem-solving",
+      "Attention to detail"
+    ],
+
+    "workEnvironment": [
+      "Collaborative engineering team",
+      "Hybrid work model",
+      "Fast-paced, product-focused environment"
+    ],
+
+    "benefits": [
+      "Competitive compensation based on experience",
+      "Opportunity to work on real-world, production-grade applications",
+      "Learning and professional growth opportunities",
+      "Supportive and collaborative team culture"
+    ],
+
+    "growthOpportunities": "Opportunity to grow into senior engineering roles, take ownership of features, and contribute to architectural decisions.",
+
+    "applicationDetails": {
+      "applyVia": "info@veloriqip.com",
+      "applicationDeadline": "Open until filled",
+      "hiringProcess": "Resume review → Technical discussion → Final interview"
+    },
+
+    "postedOn": "2026-01-31",
+    "status": "Open"
+  },
+  {
+    "id": 103,
+    "title": "Digital Marketing Executive",
+    "department": "Marketing",
+    "location": "Hybrid / Remote",
+    "employmentType": "Full-time",
+    "experience": "1–4 years",
+    "reportingTo": "Marketing Lead",
+
+    "summary": "We are looking for a results-driven Digital Marketing Executive to plan, execute, and optimize digital campaigns that strengthen brand visibility, generate qualified leads, and support business growth across multiple online channels.",
+
+    "responsibilities": [
+      "Plan and execute digital marketing campaigns across search, social, and email channels",
+      "Manage and optimize paid and organic campaigns to drive traffic and conversions",
+      "Create and publish content in collaboration with design and content teams",
+      "Monitor campaign performance using analytics tools and prepare performance reports",
+      "Optimize website and landing pages for SEO and user engagement",
+      "Manage social media presence and audience engagement across platforms",
+      "Stay updated with digital marketing trends, tools, and best practices"
+    ],
+
+    "requirements": [
+      "Strong understanding of digital marketing fundamentals",
+      "Hands-on experience with SEO, SEM, and social media marketing",
+      "Familiarity with analytics tools such as Google Analytics or similar platforms",
+      "Ability to interpret data and derive actionable insights",
+      "Good communication and coordination skills",
+      "Ability to manage multiple campaigns and deadlines"
+    ],
+
+    "preferredQualifications": [
+      "Experience running paid campaigns (Google Ads, Meta Ads, LinkedIn Ads)",
+      "Knowledge of marketing automation or email marketing tools",
+      "Basic understanding of content strategy and conversion optimization",
+      "Experience working in B2B or professional services marketing"
+    ],
+
+    "keySkills": [
+      "Digital marketing",
+      "SEO & SEM",
+      "Social media marketing",
+      "Analytics & reporting",
+      "Campaign optimization",
+      "Communication"
+    ],
+
+    "workEnvironment": [
+      "Collaborative marketing and content teams",
+      "Hybrid or remote work flexibility",
+      "Goal-oriented, performance-driven environment"
+    ],
+
+    "benefits": [
+      "Competitive compensation based on experience",
+      "Exposure to brand, performance, and growth marketing",
+      "Learning and professional development opportunities",
+      "Supportive and collaborative team culture"
+    ],
+
+    "growthOpportunities": "Opportunity to grow into senior marketing, performance marketing, or digital strategy roles.",
+
+    "applicationDetails": {
+      "applyVia": "info@veloriqip.com",
+      "applicationDeadline": "Open until filled",
+      "hiringProcess": "Resume review → Marketing discussion → Final interview"
+    },
+
+    "postedOn": "2026-01-31",
+    "status": "Open"
+  }
+]

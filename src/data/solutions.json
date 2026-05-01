@@ -1,0 +1,77 @@
+[
+  {
+    "id": "startup",
+    "audience": "Startups & Early-Stage Founders",
+    "headline": "Build IP That Attracts Investment and Protects Growth",
+    "challenge": "Startups often innovate faster than they protect. Unstructured ideas, limited budgets, and weak IP foundations reduce valuation and increase the risk of imitation.",
+    "solution": "We convert early-stage ideas into investment-ready intellectual property assets using technical enhancement, phased filing strategies, and cost-optimized execution.",
+    "valuePoints": [
+      "Technical enhancement to strengthen inventive step",
+      "Startup-friendly patent and trademark roadmap",
+      "Phased filings to control cost without compromising protection",
+      "IP structured for investor confidence and valuation"
+    ],
+    "outcome": "Stronger patents, faster protection, lower rejection risk, and IP aligned with funding and scale.",
+    "slug": "startups-early-stage-founders"
+  },
+  {
+    "id": "msmes-01",
+    "slug": "msmes-growing-businesses",
+    "audience": "MSMEs & Growing Businesses",
+    "headline": "Protect Innovation. Secure Market Position.",
+    "challenge": "MSMEs innovate continuously but often operate without structured IP protection, exposing brands and technology to competitors.",
+    "solution": "We design business-aligned IP portfolios that protect innovation, defend brand identity, and support long-term expansion.",
+    "valuePoints": [
+      "Patent and trademark protection aligned with business goals",
+      "Freedom-to-Operate (FTO) risk assessment",
+      "Portfolio optimization for scalability",
+      "Enforcement and brand protection strategy"
+    ],
+    "outcome": "Reduced risk, protected revenue streams, and stronger competitive positioning."
+  },
+  {
+    "id": "corporates-01",
+    "slug": "corporates-technology-companies",
+    "audience": "Corporates & Technology Companies",
+    "headline": "Strategic IP for Scalable Innovation",
+    "challenge": "Large R&D pipelines, global exposure, and complex enforcement demands require structured IP governance.",
+    "solution": "We provide precision-driven IP strategy and portfolio management across technologies and jurisdictions.",
+    "valuePoints": [
+      "Patent landscaping and competitive intelligence",
+      "International filing strategy (PCT / Madrid)",
+      "Portfolio lifecycle management",
+      "Enforcement and infringement risk mitigation"
+    ],
+    "outcome": "Controlled IP risk, optimized portfolios, and long-term innovation security."
+  },
+  {
+    "id": "universities-01",
+    "slug": "universities-research-institutions",
+    "audience": "Universities & Research Institutions",
+    "headline": "Turning Research into Protected Commercial Assets",
+    "challenge": "High research output but limited IP conversion and commercialization impact.",
+    "solution": "We transform academic research into commercially viable intellectual property while supporting institutional policies and technology transfer.",
+    "valuePoints": [
+      "Research-to-patent conversion support",
+      "Faculty and PhD scholar patent assistance",
+      "IP policy and TTO advisory",
+      "Licensing and industry collaboration support"
+    ],
+    "outcome": "Higher patent output, increased commercialization, and stronger industry partnerships."
+  },
+  {
+    "id": "innovators-01",
+    "slug": "individual-innovators-inventors",
+    "audience": "Individual Innovators & Inventors",
+    "headline": "From Concept to Confident Ownership",
+    "challenge": "Innovators face legal complexity, technical uncertainty, and fear of idea theft.",
+    "solution": "We provide end-to-end confidential guidance, refining ideas into enforceable IP rights.",
+    "valuePoints": [
+      "Idea evaluation and patentability assessment",
+      "Technical enhancement and documentation",
+      "Complete filing and prosecution support",
+      "Clear, transparent advisory"
+    ],
+    "outcome": "Protected ideas, reduced uncertainty, and clear ownership."
+  }
+]

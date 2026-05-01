@@ -1,0 +1,26 @@
+    <svg width="200" viewBox="0 0 260 60" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="gld" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="0%" stop-color="#C9A84C"/>
+          <stop offset="50%" stop-color="#E8C96D"/>
+          <stop offset="100%" stop-color="#A8842A"/>
+        </linearGradient>
+      </defs>
+      <!-- Symbol: abstract V shield with precision lines -->
+      <!-- Outer hexagonal shield frame -->
+      <path d="M40 12 L58 8 L58 44 L40 56 L22 44 L22 8 Z" fill="none" stroke="#003049" stroke-width="2.5"/>
+      <!-- Inner V form with neural node -->
+      <path d="M29 20 L40 42 L51 20" fill="none" stroke="url(#gld)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Precision crossbar detail -->
+      <line x1="32" y1="30" x2="48" y2="30" stroke="#003049" stroke-width="0.8" opacity="0.4"/>
+      <!-- Top node dot -->
+      <circle cx="40" cy="10" r="2" fill="url(#gld)"/>
+      <!-- Side nodes -->
+      <circle cx="22" cy="26" r="1.4" fill="#003049" opacity="0.5"/>
+      <circle cx="58" cy="26" r="1.4" fill="#003049" opacity="0.5"/>
+      <!-- Wordmark -->
+      <text x="76" y="34" font-family="Georgia, serif" font-size="28" font-weight="700" fill="#003049" letter-spacing="2">VELORIQ</text>
+      <!-- IP suffix with gold rule -->
+      <rect x="76" y="40" width="112" height="0.8" fill="url(#gld)"/>
+      <text x="77" y="54" font-family="Georgia, serif" font-size="11" font-weight="400" fill="#A8842A" letter-spacing="6">IP</text>
+    </svg>

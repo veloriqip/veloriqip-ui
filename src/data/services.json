@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "title": "Technical Enhancement & Innovation Support",
+    "description": "Transform ideas into patent-ready solutions with technical analysis, feature optimization, and documentation support.",
+    "slug": "technical-innovation-support",
+    "features": [
+      {
+        "title": "Idea Structuring & Technical Problem Identification",
+        "description": "We analyze early-stage ideas to clearly define the technical problem being solved, ensuring the invention is framed around a real, identifiable challenge."
+      },
+      {
+        "title": "Invention Disclosure Refinement",
+        "description": "We enhance invention disclosures with technical clarity, structured explanations, and relevant details required for strong patent protection."
+      },
+      {
+        "title": "Technical Gap Analysis & Improvement Mapping",
+        "description": "Existing technologies are reviewed to identify gaps, weaknesses, or inefficiencies where inventive improvements can be introduced."
+      },
+      {
+        "title": "Feature Expansion for Stronger Patent Claims",
+        "description": "Additional features, variations, and embodiments are suggested to broaden claim scope and strengthen patent protection."
+      },
+      {
+        "title": "Conversion of Concepts into Patent-Ready Solutions",
+        "description": "Concept-level ideas are transformed into technically defined solutions suitable for patent drafting and filing."
+      },
+      {
+        "title": "R&D Direction Support to Improve Inventive Step",
+        "description": "We guide R&D efforts to ensure the invention clearly differentiates from existing solutions."
+      },
+      {
+        "title": "Technical Documentation & Drawings Support",
+        "description": "We prepare detailed technical descriptions, flow diagrams, block diagrams, and drawings aligned with patent office standards."
+      },
+      {
+        "title": "Claim Scope Optimization Through Technical Inputs",
+        "description": "Technical insights are applied to draft claims that balance broad protection with legal enforceability."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Patent Services",
+    "description": "Comprehensive patent support from searches and drafting to filing, prosecution, portfolio management, and enforcement.",
+    "slug": "patent-services",
+    "features": [
+      {
+        "title": "Patentability / Novelty Search",
+        "description": "We evaluate whether an invention meets novelty and patentability requirements before filing to reduce risk and cost."
+      },
+      {
+        "title": "Prior Art Search & Analysis",
+        "description": "Comprehensive searches are conducted to identify existing patents and publications relevant to the invention."
+      },
+      {
+        "title": "Patent Drafting (Provisional & Complete Specification)",
+        "description": "We draft patent specifications that clearly describe the invention while maximizing legal protection."
+      },
+      {
+        "title": "Patent Filing (Indian & International)",
+        "description": "We manage patent filing processes across India and international jurisdictions while ensuring regulatory compliance."
+      },
+      {
+        "title": "PCT (Patent Cooperation Treaty) Applications",
+        "description": "We assist in filing PCT applications to secure international patent rights through a single consolidated filing."
+      },
+      {
+        "title": "Patent Prosecution & Office Action Responses",
+        "description": "We prepare structured and strategic responses to patent office objections to support successful grant."
+      },
+      {
+        "title": "Patent Examination Support",
+        "description": "We handle examination requests, hearings, and technical communication with patent examiners."
+      },
+      {
+        "title": "Patent Grant & Post-Grant Compliance",
+        "description": "We support clients through grant formalities and ensure ongoing post-grant compliance."
+      },
+      {
+        "title": "Patent Renewal & Annuity Management",
+        "description": "We manage annuity payments and renewal deadlines to maintain patent validity."
+      },
+      {
+        "title": "Patent Portfolio Management",
+        "description": "We organize and manage patent portfolios aligned with long-term business and innovation strategy."
+      },
+      {
+        "title": "Patent Infringement Analysis",
+        "description": "We analyze products and technologies to identify potential patent infringement risks or violations."
+      },
+      {
+        "title": "Freedom to Operate (FTO) Search",
+        "description": "We assess whether a product or technology can be commercialized without infringing third-party patents."
+      },
+      {
+        "title": "Patent Landscape & Competitive Intelligence",
+        "description": "Patent data is analyzed to identify technology trends, competitor activity, and market direction."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Trademark Services",
+    "description": "End-to-end trademark protection including searches, registration, opposition, renewal, and brand enforcement.",
+    "slug": "trademark-services",
+    "features": [
+      {
+        "title": "Trademark Availability Search",
+        "description": "We conduct searches to confirm whether a proposed brand name or logo is available for registration."
+      },
+      {
+        "title": "Trademark Filing & Registration",
+        "description": "We manage the complete trademark registration process from application filing to certification."
+      },
+      {
+        "title": "Trademark Examination Reply",
+        "description": "We draft professional responses to trademark office objections to support successful approval."
+      },
+      {
+        "title": "Trademark Opposition & Rectification",
+        "description": "We assist in handling disputes, oppositions, and corrections within trademark records."
+      },
+      {
+        "title": "Trademark Renewal & Maintenance",
+        "description": "We ensure trademarks remain protected through timely renewals and ongoing maintenance."
+      },
+      {
+        "title": "Brand Protection Strategy",
+        "description": "We develop strategic approaches to safeguard brand identity across markets and product lines."
+      },
+      {
+        "title": "Trademark Infringement Advisory",
+        "description": "We provide guidance on enforcing trademark rights against unauthorized or infringing use."
+      },
+      {
+        "title": "International Trademark Registration (Madrid Protocol)",
+        "description": "We facilitate global trademark protection through a centralized international filing system."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Copyright Services",
+    "description": "Protect creative works with registration, licensing, assignments, and infringement support for digital and physical content.",
+    "slug": "copyright-services",
+    "features": [
+      {
+        "title": "Copyright Registration",
+        "description": "We help secure legal ownership for literary, artistic, software, and other creative works."
+      },
+      {
+        "title": "Assignment & Licensing Agreements",
+        "description": "We draft agreements for the transfer or licensing of copyright rights."
+      },
+      {
+        "title": "Copyright Infringement Support",
+        "description": "We assist in addressing unauthorized use and infringement issues."
+      },
+      {
+        "title": "Digital Content & Creative Works Protection",
+        "description": "We provide protection strategies for digital media, software, and online creative content."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Design Registration Services",
+    "description": "Secure industrial designs through searches, drafting, filing, registration, renewal, and enforcement support.",
+    "slug": "design-registration-services",
+    "features": [
+      {
+        "title": "Industrial Design Search",
+        "description": "We assess the novelty and originality of product designs before filing."
+      },
+      {
+        "title": "Design Drafting & Filing",
+        "description": "We prepare and file design applications with accurate drawings and representations."
+      },
+      {
+        "title": "Design Registration & Prosecution",
+        "description": "We manage objections, responses, and follow-ups until design registration is secured."
+      },
+      {
+        "title": "Design Renewal & Enforcement Support",
+        "description": "We handle design renewals and provide guidance on enforcing design rights."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "IP Strategy & Commercialization",
+    "description": "Maximize IP value with portfolio structuring, valuation, licensing, commercialization, and monetization strategies.",
+    "slug": "ip-strategy-commercialization",
+    "features": [
+      {
+        "title": "IP Strategy Development",
+        "description": "We develop customized IP strategies aligned with business goals and long-term growth objectives."
+      },
+      {
+        "title": "IP Portfolio Structuring",
+        "description": "We organize and structure IP assets to maximize both legal protection and commercial value."
+      },
+      {
+        "title": "IP Valuation & Asset Assessment",
+        "description": "We assess the financial and strategic value of IP assets to support informed business decisions."
+      },
+      {
+        "title": "IP Due Diligence (Startups / M&A / Investment)",
+        "description": "We evaluate IP ownership, strength, and risks during investments, mergers, or acquisitions."
+      },
+      {
+        "title": "Technology Commercialization Support",
+        "description": "We assist in converting protected technologies into viable, market-ready products."
+      },
+      {
+        "title": "Licensing & Assignment Advisory",
+        "description": "We provide guidance on structured IP licensing, transfer, and assignment models."
+      },
+      {
+        "title": "Monetization & Revenue Strategy",
+        "description": "We help design revenue-generating strategies based on intellectual property assets."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Startup & MSME-Focused IP Services",
+    "description": "Tailored IP solutions for startups and MSMEs, including audits, filing strategies, fundraising support, and incentive advisory.",
+    "slug": "startup-msme-ip-services",
+    "features": [
+      {
+        "title": "Startup IP Audit & Roadmap",
+        "description": "We evaluate existing IP assets and create a future-ready intellectual property roadmap."
+      },
+      {
+        "title": "Cost-Optimized Filing Strategy",
+        "description": "We design IP filing strategies that balance strong protection with budget efficiency."
+      },
+      {
+        "title": "Investor-Oriented IP Structuring",
+        "description": "We structure IP assets to strengthen investor confidence and credibility."
+      },
+      {
+        "title": "IP for Fundraising & Valuation",
+        "description": "We position intellectual property as a core asset during fundraising and company valuation."
+      },
+      {
+        "title": "Government Schemes & IPR Incentives Advisory",
+        "description": "We guide startups and MSMEs on available IP grants, subsidies, and incentive schemes."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "University & Research Institution Services",
+    "description": "Support research institutions with patent filing, IP policy development, technology transfer, and training programs.",
+    "slug": "university-research-ip-services",
+    "features": [
+      {
+        "title": "Research-to-IP Conversion Support",
+        "description": "We assist in converting academic and institutional research into legally protected intellectual property."
+      },
+      {
+        "title": "Patent Filing for Faculty & Scholars",
+        "description": "We provide end-to-end patent filing support tailored for faculty members and researchers."
+      },
+      {
+        "title": "IP Policy Drafting for Institutions",
+        "description": "We draft clear and compliant IP ownership and commercialization policies for institutions."
+      },
+      {
+        "title": "Technology Transfer Office (TTO) Support",
+        "description": "We support Technology Transfer Office operations, processes, and commercialization initiatives."
+      },
+      {
+        "title": "Awareness & Training Programs",
+        "description": "We conduct intellectual property awareness sessions and training workshops for institutions."
+      }
+    ]
+  }
+]
