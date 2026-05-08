@@ -69,8 +69,8 @@ export default function Home() {
           <HR />
           <TestimonialsSection />
           <HR />
-          <BlogSection />
-          <HR />
+          {/* <BlogSection /> */}
+          {/* <HR /> */}
         </main>
       </div>
     </>
