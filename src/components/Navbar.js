@@ -12,7 +12,6 @@ export const Navbar = () => {
         { name: 'About', path: '/about' },
         { name: 'Service', path: '/service' },
         { name: 'Solution For', path: '/solution' },
-        // { name: 'Insights', path: '/insights' },
         { name: 'Contact us', path: '/contact' },
     ];
 
