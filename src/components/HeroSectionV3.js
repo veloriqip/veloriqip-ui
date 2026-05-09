@@ -25,80 +25,30 @@ const HeroSectionV3 = () => {
   const [[page, direction], setPage] = useState([0, 0]);
   const [dragStart, setDragStart] = useState(null);
 
-  const sliderContent = [
-    {
-      title: "Turning Ideas Into Protectable Innovations",
-      subtitle:
-        "We help innovators, startups, and enterprises transform technical ideas into structured, defensible intellectual property.",
-      image: `/hero1.png?v=${LOCAL_ASSET_VERSION}`,
-      expertise: [
-        {
-          label: "Patent Drafting & Filing",
-          icon: FaFileAlt,
-        },
-        {
-          label: "Technical Documentation",
-          icon: FaLaptopCode,
-        },
-        {
-          label: "Innovation Advisory",
-          icon: FaLightbulb,
-        },
-        {
-          label: "Prior Art Research",
-          icon: FaSearch,
-        },
-      ],
-    },
-    {
-      title: "Securing Intellectual Property With Precision and Authority",
-      subtitle:
-        "From filing to prosecution, we ensure your intellectual assets are protected with accuracy, strategy, and compliance.",
-      image: `/hero2.png?v=${LOCAL_ASSET_VERSION}`,
-      expertise: [
-        {
-          label: "Patent Prosecution",
-          icon: FaGavel,
-        },
-        {
-          label: "IP Filing Strategy",
-          icon: FaChessKnight,
-        },
-        {
-          label: "Trademark & Design Filings",
-          icon: FaTrademark,
-        },
-        {
-          label: "IP Compliance & Due Diligence",
-          icon: FaClipboardCheck,
-        },
-      ],
-    },
-    {
-      title: "Expert-Led IP Solutions Backed by Experience",
-      subtitle:
-        "Our multidisciplinary professionals combine technical knowledge, legal insight, and industry experience to deliver reliable IP outcomes.",
-      image: `/hero3.png?v=${LOCAL_ASSET_VERSION}`,
-      expertise: [
-        {
-          label: "Patent Analysts & Engineers",
-          icon: FaUserCog,
-        },
-        {
-          label: "IP Attorneys & Consultants",
-          icon: FaBalanceScale,
-        },
-        {
-          label: "Enterprise IP Management",
-          icon: FaSitemap,
-        },
-        {
-          label: "Ongoing IP Support",
-          icon: FaHandsHelping,
-        },
-      ],
-    },
-  ];
+const sliderContent = [
+  {
+    title: "Transforming Innovation Into Valuable Intellectual Property",
+    subtitle:
+      "We help startups, innovators, and enterprises convert breakthrough ideas into strong, commercially valuable IP assets.",
+    image: `/hero1.png?v=${LOCAL_ASSET_VERSION}`,
+    badge: "Empowering ideas through strategic IP protection",
+  },
+  {
+    title: "Strategic IP Protection Built on Precision and Expertise",
+    subtitle:
+      "From patent drafting to prosecution and portfolio management, we deliver accurate, compliant, and future-ready IP solutions.",
+    image: `/hero2.png?v=${LOCAL_ASSET_VERSION}`,
+    badge: "Precision-driven intellectual property solutions",
+  },
+  {
+    title: "Trusted IP Expertise for Technology-Driven Businesses",
+    subtitle:
+      "Our multidisciplinary team combines technical excellence, legal insight, and industry experience to protect and maximize innovation.",
+    image: `/hero3.png?v=${LOCAL_ASSET_VERSION}`,
+    badge: "Innovation secured by expertise and insight",
+  },
+];
+
   const paginate = (newDirection) => {
     setPage(([currentPage]) => {
       const nextPage = (currentPage + newDirection + 3) % 3;
@@ -174,7 +124,7 @@ const HeroSectionV3 = () => {
               >
                 <div className="mx-auto flex max-w-4xl flex-col items-center space-y-6">
                   <div className="inline-flex items-center justify-center self-center rounded-full border border-white/20 bg-white/10 px-4 py-2 text-center text-xs font-semibold uppercase tracking-[0.24em] text-white/80 backdrop-blur-sm">
-                    Protecting innovation with strategy and clarity
+                    {sliderContent[page].badge}
                   </div>
 
                   <div className="mx-auto flex max-w-4xl flex-col items-center space-y-5 text-center">
@@ -205,25 +155,6 @@ const HeroSectionV3 = () => {
                     Explore services
                   </motion.button>
                 </div>
-
-                {/* <div className="mx-auto flex w-full max-w-4xl flex-wrap items-stretch justify-center gap-4">
-                  {sliderContent[page].expertise.map((area, index) => (
-                    <motion.div
-                      key={`${page}-${index}`}
-                      initial={{ opacity: 0, y: 18 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.1 + index * 0.08, duration: 0.5 }}
-                      className="flex min-h-[150px] w-full max-w-xs flex-col items-center justify-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-5 text-center text-white backdrop-blur-md transition-all duration-300 hover:bg-white/[0.16]"
-                    >
-                      <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-[rgba(var(--brand-gold),0.2)] text-[rgb(var(--brand-gold))]">
-                        <area.icon className="text-xl" />
-                      </div>
-                      <span className="text-sm font-medium leading-6 text-white sm:text-base">
-                        {area.label}
-                      </span>
-                    </motion.div>
-                  ))}
-                </div> */}
               </motion.div>
             </AnimatePresence>
           </div>

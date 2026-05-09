@@ -1,11 +1,9 @@
 import styles from "../page.module.css";
-import BlogSection from "@/components/Blog/BlogSection";
 import HR from "@/components/HR";
 import ServiceSection from "@/components/Service/ServiceSection";
 import SolutionsSection from "@/components/Solution/SolutionSection";
 import MetricsSection from "@/components/Metrics/MetricsSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
-import HeroSectionV2 from "@/components/HeroSectionV2";
 import HeroSectionV3 from "@/components/HeroSectionV3";
 
 export const metadata = {
