@@ -18,7 +18,7 @@ export async function POST(req) {
 
     await sendSubscriberEmail({
       email: data?.email,
-      subject: "Thanks for Subscribing | Protect Your Ideas with VeloriqIP",
+      subject: "Thanks for Subscribing | Protect Your Ideas with Veloriq IP",
       html: welcomeEmailHtml(),
     });
 

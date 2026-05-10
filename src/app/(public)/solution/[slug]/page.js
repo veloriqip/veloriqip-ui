@@ -15,7 +15,7 @@ export async function generateMetadata({ params }) {
       canonical: `https://veloriqip.com/solution/${slug}`,
     },
     openGraph: {
-      title: `${solution.audience} | VeloriqIP`,
+      title: `${solution.audience} | Veloriq IP`,
       description: solution.headline,
       url: `https://veloriqip.com/solution/${slug}`,
       type: "article",
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${solution.audience} | VeloriqIP`,
+      title: `${solution.audience} | Veloriq IP`,
       description: solution.headline,
       images: [
         `https://veloriqip.com/logo.svg`,
@@ -57,7 +57,7 @@ export default async function Page({ params }) {
             url: `https://veloriqip.com/solution/${solution.slug}`,
             provider: {
               "@type": "Organization",
-              name: "VeloriqIP",
+              name: "Veloriq IP",
               url: "https://veloriqip.com",
               logo: "https://veloriqip.com/logo.svg",
             },

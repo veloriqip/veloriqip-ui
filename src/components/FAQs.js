@@ -11,7 +11,7 @@ export default function FAQs () {
                     <p className="text-[rgb(var(--brand-gold))] text-sm font-medium">FAQ&apos;s</p>
                     <h1 className="text-3xl font-semibold">Looking for answer?</h1>
                     <p className="text-sm text-slate-500 mt-2 pb-4 max-w-250">
-                        Have questions about intellectual property, patents, trademarks, or our services? We’ve compiled answers to the most common queries to help you understand VeloriqIP’s processes, offerings, and support options.
+                        Have questions about intellectual property, patents, trademarks, or our services? We’ve compiled answers to the most common queries to help you understand Veloriq IP’s processes, offerings, and support options.
                     </p>
                     {faqs.map((faq, index) => (
                         <div className="border-b border-slate-200 py-4 cursor-pointer" key={index} onClick={() => setOpenIndex(openIndex === index ? null : index)}>

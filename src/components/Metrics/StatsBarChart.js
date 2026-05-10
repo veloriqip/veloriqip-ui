@@ -20,8 +20,9 @@ export default function StatsBarChart() {
       {
         label: "Company Metrics",
         data: statsData.map((s) => s.value),
-        backgroundColor: "#2b4e37", // brand green
+        backgroundColor: ["#003049", "#1d5a73", "#b59b5a", "#2b4e37", "#ceb87a"],
         borderRadius: 8,
+        borderSkipped: false,
       },
     ],
   };
@@ -31,18 +32,40 @@ export default function StatsBarChart() {
     maintainAspectRatio: false,
     plugins: {
       legend: { display: false },
+      tooltip: {
+        backgroundColor: "#0f172a",
+        titleColor: "#f8fafc",
+        bodyColor: "#e2e8f0",
+        padding: 12,
+      },
     },
     scales: {
+      x: {
+        grid: { display: false },
+        ticks: {
+          color: "#475569",
+          maxRotation: 0,
+          minRotation: 0,
+          font: {
+            size: 11,
+          },
+        },
+      },
       y: {
         beginAtZero: true,
-        ticks: { stepSize: 10 },
+        ticks: {
+          stepSize: 20,
+          color: "#64748b",
+        },
+        grid: {
+          color: "rgba(148, 163, 184, 0.18)",
+        },
+        border: {
+          display: false,
+        },
       },
     },
   };
 
-  return (
-    <div className="h-[350px]">
-      <Bar data={data} options={options} />
-    </div>
-  );
+  return <Bar data={data} options={options} />;
 }

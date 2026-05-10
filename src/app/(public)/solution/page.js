@@ -1,11 +1,11 @@
-import SolutionsSection from "@/components/Solution/SolutionSection";
+import SolutionSectionV3 from "@/components/Solution/SolutionSectionV3";
 import solutions from "@/data/solutions.json";
 
 /* -------------------- METADATA -------------------- */
 export const metadata = {
   title: "Our Solutions",
   description:
-    "Explore VeloriqIP's innovative IP solutions, including patent strategies, IP analytics, and legal consulting services.",
+    "Explore Veloriq IP's innovative IP solutions, including patent strategies, IP analytics, and legal consulting services.",
   alternates: {
     canonical: "https://veloriqip.com/solution",
   },
@@ -14,17 +14,17 @@ export const metadata = {
     follow: true,
   },
   openGraph: {
-    title: "Our Solutions | VeloriqIP",
+    title: "Our Solutions | Veloriq IP",
     description:
-      "Explore VeloriqIP's innovative IP solutions, including patent strategies, IP analytics, and legal consulting services.",
+      "Explore Veloriq IP's innovative IP solutions, including patent strategies, IP analytics, and legal consulting services.",
     url: "https://veloriqip.com/solution",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Solutions | VeloriqIP",
+    title: "Our Solutions | Veloriq IP",
     description:
-      "Explore VeloriqIP's innovative IP solutions, including patent strategies, IP analytics, and legal consulting services.",
+      "Explore Veloriq IP's innovative IP solutions, including patent strategies, IP analytics, and legal consulting services.",
     images: ["https://veloriqip.com/logo.svg"],
   },
 };
@@ -40,10 +40,10 @@ export default function Page() {
             "@context": "https://schema.org",
             "@type": "ItemList",
             "@id": "https://veloriqip.com/solutions#itemlist",
-            name: "VeloriqIP Solutions",
+            name: "Veloriq IP Solutions",
             url: "https://veloriqip.com/solutions",
             description:
-              "Explore VeloriqIP’s intellectual property solutions, including patent strategy, IP analytics, and legal consulting services for innovators.",
+              "Explore Veloriq IP’s intellectual property solutions, including patent strategy, IP analytics, and legal consulting services for innovators.",
             numberOfItems: solutions.length,
             publisher: {
               "@id": "https://veloriqip.com/#organization",
@@ -63,7 +63,7 @@ export default function Page() {
       />
 
       <div className="mt-35 mb-20">
-        <SolutionsSection />
+        <SolutionSectionV3 />
       </div>
     </>
   );

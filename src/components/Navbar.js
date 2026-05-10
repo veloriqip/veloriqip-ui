@@ -9,9 +9,9 @@ export const Navbar = () => {
     const router = useRouter()
     const navLinks = [
         { name: 'Home', path: '/' },
-        { name: 'About', path: '/about' },
-        { name: 'Service', path: '/service' },
-        { name: 'Solution For', path: '/solution' },
+        { name: 'About us', path: '/about' },
+        { name: 'IP Services', path: '/service' },
+        { name: 'Strategic Solutions', path: '/solution' },
         { name: 'Contact us', path: '/contact' },
     ];
 

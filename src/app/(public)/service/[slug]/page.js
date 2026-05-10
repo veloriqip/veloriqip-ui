@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
       canonical: `https://veloriqip.com/service/${slug}`,
     },
     openGraph: {
-      title: `${service.title} | VeloriqIP`,
+      title: `${service.title} | Veloriq IP`,
       description: service.description,
       url: `https://veloriqip.com/service/${slug}`,
       type: "article",
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
     },
     twitter: {
       card: "summary_large_image",
-      title: `${service.title} | VeloriqIP`,
+      title: `${service.title} | Veloriq IP`,
       description: service.description,
       images: [`https://veloriqip.com/logo.svg`],
     },

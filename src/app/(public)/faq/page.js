@@ -2,14 +2,14 @@ import FAQs from "@/components/FAQs";
 export const metadata = {
   title: "FAQs",
   description:
-    "Find answers to common questions about VeloriqIP’s intellectual property, patent, trademark, and IP advisory services.",
+    "Find answers to common questions about Veloriq IP’s intellectual property, patent, trademark, and IP advisory services.",
   alternates: {
     canonical: "https://veloriqip.com/faq",
   },
   openGraph: {
-    title: "FAQs | VeloriqIP",
+    title: "FAQs | Veloriq IP",
     description:
-      "Answers to frequently asked questions about patents, trademarks, and intellectual property services at VeloriqIP.",
+      "Answers to frequently asked questions about patents, trademarks, and intellectual property services at Veloriq IP.",
     url: "https://veloriqip.com/faq",
   },
 };

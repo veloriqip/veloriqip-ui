@@ -20,26 +20,26 @@ export const metadata = {
 
   title: {
     default:
-      "VeloriqIP | Intellectual Property & Patent Services for Innovators",
-    template: "%s | VeloriqIP",
+      "Veloriq IP | Intellectual Property & Patent Services for Innovators",
+    template: "%s | Veloriq IP",
   },
 
   description:
-    "VeloriqIP provides expert intellectual property, patent, trademark, and IP strategy services for startups, MSMEs, universities, and innovation-driven enterprises.",
+    "Veloriq IP provides expert intellectual property, patent, trademark, and IP strategy services for startups, MSMEs, universities, and innovation-driven enterprises.",
 
   openGraph: {
     title:
-      "VeloriqIP | Intellectual Property & Patent Services for Innovators",
+      "Veloriq IP | Intellectual Property & Patent Services for Innovators",
     description:
-      "VeloriqIP helps innovators protect, manage, and scale their ideas through strong intellectual property, patent, and trademark services.",
+      "Veloriq IP helps innovators protect, manage, and scale their ideas through strong intellectual property, patent, and trademark services.",
     url: "https://veloriqip.com/",
-    siteName: "VeloriqIP",
+    siteName: "Veloriq IP",
     images: [
       {
         url: "https://veloriqip.com/logo.svg",
         width: 1200,
         height: 630,
-        alt: "VeloriqIP – Intellectual Property Services",
+        alt: "Veloriq IP – Intellectual Property Services",
       },
     ],
     type: "website",
@@ -48,9 +48,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "VeloriqIP | Intellectual Property & Patent Services for Innovators",
+      "Veloriq IP | Intellectual Property & Patent Services for Innovators",
     description:
-      "Expert intellectual property, patent, and trademark services by VeloriqIP for startups and enterprises.",
+      "Expert intellectual property, patent, and trademark services by Veloriq IP for startups and enterprises.",
   },
 
   alternates: {

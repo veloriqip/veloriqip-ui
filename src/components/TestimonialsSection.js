@@ -5,91 +5,91 @@ export default function TestimonialsSection() {
       category: "Startup & Founder",
       title: "Deep-Tech Startup Founder",
       testimonial:
-        "VeloriqIP supported us from idea structuring to filing a well-defined patent application. Their technical inputs strengthened our claims and overall IP strategy. A reliable partner for innovation-driven startups.",
+        "Veloriq IP supported us from idea structuring to filing a well-defined patent application. Their technical inputs strengthened our claims and overall IP strategy. A reliable partner for innovation-driven startups.",
     },
     {
       id: 2,
       category: "Startup & Founder",
       title: "Early-Stage Startup",
       testimonial:
-        "What impressed us about VeloriqIP was their ability to understand the technology before drafting. Their technical enhancement approach clearly improved our patent scope.",
+        "What impressed us about Veloriq IP was their ability to understand the technology before drafting. Their technical enhancement approach clearly improved our patent scope.",
     },
     {
       id: 3,
       category: "Startup & Founder",
       title: "SaaS Startup",
       testimonial:
-        "The VeloriqIP team ensured clarity at every step—from prior art analysis to filing. Communication was structured and timelines were respected.",
+        "The Veloriq IP team ensured clarity at every step—from prior art analysis to filing. Communication was structured and timelines were respected.",
     },
     {
       id: 4,
       category: "Startup & Founder",
       title: "Hardware Startup",
       testimonial:
-        "VeloriqIP helped convert early concepts into a patent-ready invention. Their claim drafting reflected both technical depth and commercial foresight.",
+        "Veloriq IP helped convert early concepts into a patent-ready invention. Their claim drafting reflected both technical depth and commercial foresight.",
     },
     {
       id: 5,
       category: "MSME & Industrial",
       title: "Manufacturing MSME",
       testimonial:
-        "We approached VeloriqIP with an existing product. Their technical gap analysis and claim optimization added measurable value to our IP.",
+        "We approached Veloriq IP with an existing product. Their technical gap analysis and claim optimization added measurable value to our IP.",
     },
     {
       id: 6,
       category: "MSME & Industrial",
       title: "R&D Head – Industrial Firm",
       testimonial:
-        "VeloriqIP handled prior-art searches and prosecution with professionalism. Examination responses were well-reasoned and strategically drafted.",
+        "Veloriq IP handled prior-art searches and prosecution with professionalism. Examination responses were well-reasoned and strategically drafted.",
     },
     {
       id: 7,
       category: "MSME & Industrial",
       title: "Engineering Services Company",
       testimonial:
-        "VeloriqIP aligns IP strategy with business objectives, making them a dependable long-term IP partner.",
+        "Veloriq IP aligns IP strategy with business objectives, making them a dependable long-term IP partner.",
     },
     {
       id: 8,
       category: "University & Academia",
       title: "University Professor",
       testimonial:
-        "VeloriqIP translated academic research into industry-grade patent documentation while preserving technical integrity.",
+        "Veloriq IP translated academic research into industry-grade patent documentation while preserving technical integrity.",
     },
     {
       id: 9,
       category: "University & Academia",
       title: "PhD Research Scholar",
       testimonial:
-        "As a researcher, I appreciated VeloriqIP’s structured guidance on disclosures, drawings, and claims. The process was transparent and well-managed.",
+        "As a researcher, I appreciated Veloriq IP’s structured guidance on disclosures, drawings, and claims. The process was transparent and well-managed.",
     },
     {
       id: 10,
       category: "University & Academia",
       title: "Technology Transfer Office",
       testimonial:
-        "VeloriqIP’s systematic approach to invention disclosures and patent filing has supported our commercialization efforts.",
+        "Veloriq IP’s systematic approach to invention disclosures and patent filing has supported our commercialization efforts.",
     },
     {
       id: 11,
       category: "Client Experience",
       title: "Multi-Patent Client",
       testimonial:
-        "Across multiple filings, VeloriqIP maintained consistent drafting quality and strong prosecution support.",
+        "Across multiple filings, Veloriq IP maintained consistent drafting quality and strong prosecution support.",
     },
     {
       id: 12,
       category: "Client Experience",
       title: "First-Time Inventor",
       testimonial:
-        "VeloriqIP explained the patent process clearly, including risks and scope, which helped set realistic expectations.",
+        "Veloriq IP explained the patent process clearly, including risks and scope, which helped set realistic expectations.",
     },
     {
       id: 13,
       category: "Client Experience",
       title: "Long-Term Client",
       testimonial:
-        "VeloriqIP combines technical strength with a client-first approach, making them stand out in the IP services space.",
+        "Veloriq IP combines technical strength with a client-first approach, making them stand out in the IP services space.",
     },
   ];
 

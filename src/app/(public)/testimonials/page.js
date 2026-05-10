@@ -1,8 +1,8 @@
-import TestimonialsSection from "@/components/TestimonialsSection";
+import TestimonialsSectionV2 from "@/components/TestimonialsSectionV2";
 export const metadata = {
   title: "Testimonials",
   description:
-    "Read client testimonials and feedback highlighting VeloriqIP’s expertise in patents, trademarks, and strategic intellectual property services.",
+    "Read client testimonials and feedback highlighting Veloriq IP’s expertise in patents, trademarks, and strategic intellectual property services.",
   alternates: {
     canonical: "https://veloriqip.com/testimonials",
   },
@@ -20,7 +20,7 @@ export default function Page() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            name: "VeloriqIP Client Testimonials",
+            name: "Veloriq IP Client Testimonials",
             url: "https://veloriqip.com/testimonials",
             itemListElement: [
               {
@@ -30,10 +30,10 @@ export default function Page() {
                   name: "Startup Founder",
                 },
                 reviewBody:
-                  "VeloriqIP supported us from idea structuring to filing a well-defined patent application. Their technical inputs strengthened our claims and overall IP strategy.",
+                  "Veloriq IP supported us from idea structuring to filing a well-defined patent application. Their technical inputs strengthened our claims and overall IP strategy.",
                 itemReviewed: {
                   "@type": "Organization",
-                  name: "VeloriqIP",
+                  name: "Veloriq IP",
                 },
               },
             ],
@@ -42,7 +42,7 @@ export default function Page() {
       />
 
       <div className="mt-35 mb-20">
-        <TestimonialsSection />
+        <TestimonialsSectionV2 />
       </div>
     </>
   );

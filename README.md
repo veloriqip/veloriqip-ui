@@ -1,13 +1,13 @@
-# VeloriqIP UI
+# Veloriq IP UI
 
-**VeloriqIP UI** is the frontend user interface for the VeloriqIP platform, built with **Next.js**.  
-It provides a responsive and scalable foundation for building user-facing pages and features for the VeloriqIP product ecosystem.
+**Veloriq IP UI** is the frontend user interface for the Veloriq IP platform, built with **Next.js**.  
+It provides a responsive and scalable foundation for building user-facing pages and features for the Veloriq IP product ecosystem.
 
 ---
 
 ## 🧠 Project Overview
 
-This repository contains a Next.js application that acts as the core UI layer of the VeloriqIP platform.  
+This repository contains a Next.js application that acts as the core UI layer of the Veloriq IP platform.  
 It’s initialized with the default Next.js template and can be extended with pages, components, and styles to build a full production UI.
 
 Key characteristics:

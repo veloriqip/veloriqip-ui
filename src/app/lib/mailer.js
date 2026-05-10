@@ -11,7 +11,7 @@ export async function sendAdminEmail({ subject, html, replyTo }) {
       },
       body: JSON.stringify({
         sender: {
-          name: "VeloriqIP",
+          name: "Veloriq IP",
           email: process.env.VERIFIED_SENDER_EMAIL,
         },
         to: recipients.map((email) => ({ email })),
@@ -46,7 +46,7 @@ export async function sendSubscriberEmail({ email, subject, html }) {
       },
       body: JSON.stringify({
         sender: {
-          name: "VeloriqIP",
+          name: "Veloriq IP",
           email: process.env.VERIFIED_SENDER_EMAIL,
         },
         subject: subject,

@@ -3,7 +3,7 @@ import jobs from "@/data/jobs.json";
 export const metadata = {
   title: "Careers",
   description:
-    "Explore career opportunities at VeloriqIP. Join our intellectual property and legal team working on patents, trademarks, and innovation-driven projects.",
+    "Explore career opportunities at Veloriq IP. Join our intellectual property and legal team working on patents, trademarks, and innovation-driven projects.",
 };
 export default function Careers() {
   return (
@@ -14,7 +14,7 @@ export default function Careers() {
           __html: JSON.stringify({
             "@context": "https://schema.org",
             "@type": "ItemList",
-            name: "Careers at VeloriqIP",
+            name: "Careers at Veloriq IP",
             url: "https://veloriqip.com/careers",
             itemListElement: jobs.map((job, index) => ({
               "@type": "ListItem",
@@ -24,7 +24,7 @@ export default function Careers() {
                 title: job.title,
                 hiringOrganization: {
                   "@type": "Organization",
-                  name: "VeloriqIP",
+                  name: "Veloriq IP",
                   sameAs: "https://veloriqip.com",
                   logo: "https://veloriqip.com/logo.svg",
                 },

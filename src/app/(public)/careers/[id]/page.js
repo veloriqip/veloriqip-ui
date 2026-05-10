@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
 
   return {
     title: `${job.title} – ${job.location}`,
-    description: `Apply for the ${job.title} role at VeloriqIP. ${job.summary}`,
+    description: `Apply for the ${job.title} role at Veloriq IP. ${job.summary}`,
     alternates: {
       canonical: `https://veloriqip.com/careers/${job.id}`,
     },
@@ -40,7 +40,7 @@ export default async function Page({ params }) {
             validThrough: "2026-06-30",
             hiringOrganization: {
               "@type": "Organization",
-              name: "VeloriqIP",
+              name: "Veloriq IP",
               sameAs: "https://veloriqip.com",
               logo: "https://veloriqip.com/logo.svg",
             },
@@ -56,7 +56,7 @@ export default async function Page({ params }) {
             },
             identifier: {
               "@type": "PropertyValue",
-              name: "VeloriqIP Job ID",
+              name: "Veloriq IP Job ID",
               value: job.id,
             },
           }),

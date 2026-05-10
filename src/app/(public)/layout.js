@@ -3,17 +3,17 @@ import { Navbar } from "@/components/Navbar";
 
 export const metadata = {
   title: {
-    default: "VeloriqIP – IP Services",
-    template: "%s | VeloriqIP",
+    default: "Veloriq IP – IP Services",
+    template: "%s | Veloriq IP",
   },
   description:
-    "VeloriqIP provides expert intellectual property services, solutions, and legal support for startups and enterprises.",
+    "Veloriq IP provides expert intellectual property services, solutions, and legal support for startups and enterprises.",
   openGraph: {
-    title: "VeloriqIP – IP Services",
+    title: "Veloriq IP – IP Services",
     description:
-      "VeloriqIP provides expert intellectual property services, solutions, and legal support for startups and enterprises.",
+      "Veloriq IP provides expert intellectual property services, solutions, and legal support for startups and enterprises.",
     url: "https://veloriqip.com/",
-    siteName: "VeloriqIP",
+    siteName: "Veloriq IP",
     images: [
       {
         url: "https://veloriqip.com/logo.svg",

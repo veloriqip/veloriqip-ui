@@ -140,7 +140,7 @@ export default function Footer() {
                   Instagram
                 </a>
                 <a
-                  href="https://www.youtube.com/@VeloriqIP"
+                  href="https://www.youtube.com/@Veloriq IP"
                   target="_blank"
                   className="text-sm text-[rgb(var(--brand-navy))] hover:text-[rgb(var(--btn-hover))] transition-colors"
                 >
@@ -195,7 +195,7 @@ export default function Footer() {
 
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-xs text-[rgb(var(--brand-navy))]">
-              © 2026 VeloriqIP. All Rights Reserved.
+              © 2026 Veloriq IP. All Rights Reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link

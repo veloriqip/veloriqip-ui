@@ -26,7 +26,7 @@ export function welcomeEmailHtml() {
   <html>
     <head>
       <meta charset="UTF-8" />
-      <title>Welcome to VeloriqIP</title>
+      <title>Welcome to Veloriq IP</title>
     </head>
     <body style="margin:0; padding:0; background-color:#f6f8fb; font-family:Arial, sans-serif;">
       <table width="100%" cellpadding="0" cellspacing="0" style="padding:24px;">
@@ -37,7 +37,7 @@ export function welcomeEmailHtml() {
               <!-- Header -->
               <tr>
                 <td style="text-align:center; padding-bottom:24px;">
-                  <h1 style="margin:0; color:#111827;">Welcome to VeloriqIP 👋</h1>
+                  <h1 style="margin:0; color:#111827;">Welcome to Veloriq IP 👋</h1>
                   <p style="color:#6b7280; margin-top:8px;">
                     Protecting ideas. Empowering innovation.
                   </p>
@@ -50,7 +50,7 @@ export function welcomeEmailHtml() {
                   <p>Dear Subscriber,</p>
 
                   <p>
-                    Thank you for subscribing to <strong>VeloriqIP</strong>.
+                    Thank you for subscribing to <strong>Veloriq IP</strong>.
                     We’re glad to have you with us.
                   </p>
 
@@ -88,7 +88,7 @@ export function welcomeEmailHtml() {
 
                   <p style="margin-top:32px;">
                     Warm regards,<br />
-                    <strong>VeloriqIP</strong>
+                    <strong>Veloriq IP</strong>
                   </p>
                 </td>
               </tr>

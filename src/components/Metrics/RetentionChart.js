@@ -16,15 +16,34 @@ export function RetentionChart() {
     datasets: [
       {
         data: [96, 4],
-        backgroundColor: ["#2b4e37", "#e5e7eb"],
+        backgroundColor: ["#003049", "#e2e8f0"],
         borderWidth: 0,
+        hoverOffset: 4,
       },
     ],
   };
 
-  return (
-    <div className="h-[280px]">
-      <Doughnut data={data} />
-    </div>
-  );
+  const options = {
+    responsive: true,
+    maintainAspectRatio: false,
+    cutout: "72%",
+    plugins: {
+      legend: {
+        position: "bottom",
+        labels: {
+          color: "#475569",
+          boxWidth: 12,
+          padding: 18,
+        },
+      },
+      tooltip: {
+        backgroundColor: "#0f172a",
+        titleColor: "#f8fafc",
+        bodyColor: "#e2e8f0",
+        padding: 12,
+      },
+    },
+  };
+
+  return <Doughnut data={data} options={options} />;
 }

@@ -67,9 +67,9 @@ function Counter({ value, suffix }) {
 export default function MetricsSection() {
   const pathname = usePathname();
   const stats = [
-    { value: 4, suffix: "+", label: "Years Experience" },
-    { value: 14, suffix: "+", label: "IP Service Verticals" },
-    { value: 29, suffix: "+", label: "Clients Served" },
+    { value: 2, suffix: "+", label: "Years Experience" },
+    { value: 12, suffix: "+", label: "IP Service Verticals" },
+    { value: 24, suffix: "+", label: "Clients Served" },
     { value: 96, suffix: "%", label: "Client Retention" },
   ];
 

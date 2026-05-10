@@ -1,7 +1,15 @@
+import { Mail } from "lucide-react";
+
+const sectionClassName =
+  "rounded-[20px] border border-slate-200 bg-white p-6 sm:p-8";
+
+const listPanelClassName =
+  "mt-5 rounded-[16px] border border-slate-200 bg-slate-50 p-5";
+
 export const metadata = {
   title: "Terms and Conditions",
   description:
-    "Review VeloriqIP’s Terms and Conditions outlining the rules, responsibilities, and legal guidelines for using our website and intellectual property services.",
+    "Review Veloriq IP’s Terms and Conditions outlining the rules, responsibilities, and legal guidelines for using our website and intellectual property services.",
   alternates: {
     canonical: "https://veloriqip.com/terms-and-conditions",
   },
@@ -10,7 +18,7 @@ export const metadata = {
     follow: true,
   },
 };
-export default function TermsAndCondtions() {
+export default function TermsAndConditions() {
   return (
     <>
       <script
@@ -27,21 +35,31 @@ export default function TermsAndCondtions() {
           }),
         }}
       />
-      <div className="mt-25">
-        <div className="bg-gray-50 min-h-screen">
-          <div className="max-w-4xl mx-auto px-4 py-16">
-            <div className="bg-white rounded-2xl shadow-xl p-8">
-              <h1 className="text-3xl font-bold text-gray-900 mb-8">
+      <div className="mt-28 mb-20 bg-slate-50 px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+        <section className="mx-auto max-w-5xl rounded-[28px] border border-slate-200 bg-white px-5 py-10 shadow-[0_18px_40px_rgba(15,23,42,0.05)] sm:px-8 lg:px-12 lg:py-12">
+          <div>
+            <div className="max-w-3xl border-b border-slate-200 pb-8">
+              <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
+                Legal Information
+              </p>
+              <h1 className="mt-4 text-3xl font-semibold leading-tight text-slate-900 sm:text-4xl">
                 Terms of Service
               </h1>
+              <p className="mt-4 max-w-2xl text-base leading-8 text-slate-600">
+                Review the terms, responsibilities, and usage conditions that
+                apply when accessing the Veloriq IP website and related
+                services.
+              </p>
+            </div>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
+            <div className="mt-10 grid gap-6">
+              <section className={sectionClassName}>
+                <h2 className="text-xl font-semibold text-slate-900 sm:text-2xl">
                   1. Acceptance of Terms
                 </h2>
-                <div className="prose text-gray-600">
+                <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
                   <p>
-                    Welcome to VeloriqIP These Terms and Conditions (“Terms”)
+                    Welcome to Veloriq IP These Terms and Conditions (“Terms”)
                     govern your access to and use of our website
                     [www.veloriqip.com] (“Website”) and the services provided
                     through it.
@@ -53,371 +71,285 @@ export default function TermsAndCondtions() {
                 </div>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
+              <section className={sectionClassName}>
+                <h2 className="text-xl font-semibold text-slate-900 sm:text-2xl">
                   2. Nature of Services
                 </h2>
-                <p>
-                  VeloriqIP provides professional services related to
+                <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                  Veloriq IP provides professional services related to
                   Intellectual Property Rights, including but not limited to:
                 </p>
-                <div className="bg-gray-50 rounded-lg p-6">
-                  <ul className="space-y-4 text-gray-600">
-                    <li className="flex gap-3">
-                      <svg
-                        className="h-6 w-6 text-blue-500 flex-shrink-0"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      <span>Patent filing and prosecution.</span>
-                    </li>
-                    <li className="flex gap-3">
-                      <svg
-                        className="h-6 w-6 text-blue-500 flex-shrink-0"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      <span>Patentability searches and analysis</span>
-                    </li>
-                    <li className="flex gap-3">
-                      <svg
-                        className="h-6 w-6 text-blue-500 flex-shrink-0"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      <span>
-                        Trademark, copyright, and design-related services
-                      </span>
-                    </li>
-                    <li className="flex gap-3">
-                      <svg
-                        className="h-6 w-6 text-blue-500 flex-shrink-0"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M5 13l4 4L19 7"
-                        />
-                      </svg>
-                      <span>IP advisory and consulting services</span>
-                    </li>
+                <div className={listPanelClassName}>
+                  <ul className="space-y-3 text-sm leading-7 text-slate-600 sm:text-[15px]">
+                    <li>Patent filing and prosecution.</li>
+                    <li>Patentability searches and analysis</li>
+                    <li>Trademark, copyright, and design-related services</li>
+                    <li>IP advisory and consulting services</li>
                   </ul>
                 </div>
-                <p>
+                <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
                   All services are provided on a best-effort basis and are
                   subject to applicable laws, regulations, and professional
                   standards in India and other relevant jurisdictions.
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
+              <section className={sectionClassName}>
+                <h2 className="text-xl font-semibold text-slate-900 sm:text-2xl">
                   3. No Legal Advice Disclaimer
                 </h2>
-                <div className="bg-yellow-50 border-l-4 border-yellow-400 p-4">
-                  <div className="flex">
-                    <div className="flex-shrink-0">
-                      <svg
-                        className="h-5 w-5 text-yellow-400"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
-                      >
-                        <path
-                          fillRule="evenodd"
-                          d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z"
-                          clipRule="evenodd"
-                        />
-                      </svg>
-                    </div>
-                    <div className="ml-3">
-                      <p className="text-sm text-yellow-700">
-                        The content available on this Website is provided for
-                        general informational purposes only and does not
-                        constitute legal advice or a professional opinion.
-                        <br />
-                      </p>
-                    </div>
-                  </div>
+                <div className="mt-5 rounded-[16px] border border-amber-200 bg-amber-50 px-5 py-4">
+                  <p className="text-sm leading-7 text-amber-900 sm:text-[15px] sm:leading-8">
+                    The content available on this Website is provided for
+                    general informational purposes only and does not constitute
+                    legal advice or a professional opinion.
+                  </p>
                 </div>
-                <ul className="mt-5">
-                  <li className="mb-1">
+                <ul className="mt-5 space-y-3 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                  <li>
                     Accessing or communicating through this Website does not
                     create a client–professional relationship unless expressly
                     agreed in writing.
                   </li>
-                  <li className="mb-1">
+                  <li>
                     Users are advised to seek formal professional advice before
                     taking any action based on Website content.
                   </li>
                 </ul>
-
-                <br />
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
+              <section className={sectionClassName}>
+                <h2 className="text-xl font-semibold text-slate-900 sm:text-2xl">
                   4. Eligibility and User Responsibility
                 </h2>
-                <p>By using this Website, you confirm that:</p>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h3 className="font-medium text-gray-900 mb-2">
+                <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                  By using this Website, you confirm that:
+                </p>
+                <div className="mt-5 grid gap-4 md:grid-cols-3">
+                  <div className="rounded-[16px] border border-slate-200 bg-slate-50 p-5">
+                    <h3 className="text-base font-semibold text-slate-900">
                       Age Limitations
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
                       You are at least 18 years of age.
                     </p>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h3 className="font-medium text-gray-900 mb-2">
+                  <div className="rounded-[16px] border border-slate-200 bg-slate-50 p-5">
+                    <h3 className="text-base font-semibold text-slate-900">
                       Legal Capacity
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
                       You have the legal capacity to enter into binding
                       agreements.
                     </p>
                   </div>
-                  <div className="bg-gray-50 p-4 rounded-lg">
-                    <h3 className="font-medium text-gray-900 mb-2">
+                  <div className="rounded-[16px] border border-slate-200 bg-slate-50 p-5">
+                    <h3 className="text-base font-semibold text-slate-900">
                       Information Integrity
                     </h3>
-                    <p className="text-gray-600">
+                    <p className="mt-3 text-sm leading-7 text-slate-600">
                       Information provided by you is accurate, complete, and
                       lawful.
                     </p>
                   </div>
                 </div>
-                <p>
+                <p className="mt-5 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
                   You agree not to use the Website for any fraudulent, unlawful,
                   or harmful purpose.
                 </p>
               </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  5. Intellectual Property Rights
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>
-                    All content on this Website, including but not limited to:
-                  </p>
-                  <ul className="list-disc px-5 py-2 bg-gray-50">
-                    <li>Text, graphics, logos, icons</li>
-                    <li>Brand name, tagline, and visual identity</li>
-                    <li>Website layout and design</li>
-                  </ul>
-                  <p>
-                    is the exclusive intellectual property of VeloriqIP,
-                    unless otherwise stated.
-                  </p>
-                  <p>
-                    Unauthorized copying, reproduction, distribution, or
-                    commercial use of any content is strictly prohibited and may
-                    result in legal action.
-                  </p>
-                </div>
-              </section>
+              <div className="grid gap-6 xl:grid-cols-2">
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    5. Intellectual Property Rights
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>
+                      All content on this Website, including but not limited to:
+                    </p>
+                    <ul className={`${listPanelClassName} list-disc pl-10`}>
+                      <li>Text, graphics, logos, icons</li>
+                      <li>Brand name, tagline, and visual identity</li>
+                      <li>Website layout and design</li>
+                    </ul>
+                    <p>
+                      is the exclusive intellectual property of Veloriq IP,
+                      unless otherwise stated.
+                    </p>
+                    <p>
+                      Unauthorized copying, reproduction, distribution, or
+                      commercial use of any content is strictly prohibited and
+                      may result in legal action.
+                    </p>
+                  </div>
+                </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  6. Confidentiality and Communication
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>
-                    While we take reasonable measures to protect information
-                    shared with us:
-                  </p>
-                  <ul className="list-disc px-5 py-2 bg-gray-50">
-                    <li>
-                      Communication via the Website or email is not guaranteed
-                      to be secure
-                    </li>
-                    <li>
-                      Submission of information does not automatically imply
-                      confidentiality unless agreed in writing
-                    </li>
-                  </ul>
-                  <p>
-                    Users are advised not to share sensitive or confidential
-                    information unless formally instructed to do so.
-                  </p>
-                </div>
-              </section>
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    6. Confidentiality and Communication
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>
+                      While we take reasonable measures to protect information
+                      shared with us:
+                    </p>
+                    <ul className={`${listPanelClassName} list-disc pl-10`}>
+                      <li>
+                        Communication via the Website or email is not guaranteed
+                        to be secure
+                      </li>
+                      <li>
+                        Submission of information does not automatically imply
+                        confidentiality unless agreed in writing
+                      </li>
+                    </ul>
+                    <p>
+                      Users are advised not to share sensitive or confidential
+                      information unless formally instructed to do so.
+                    </p>
+                  </div>
+                </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  7. Fees, Payments, and Engagement
-                </h2>
-                <div className="prose text-gray-600">
-                  <ul className="list-disc px-5 py-2 bg-gray-50">
-                    <li>
-                      Fees for services are communicated separately via
-                      proposal, quotation, or engagement letter.
-                    </li>
-                    <li>
-                      Payment terms, scope of work, and timelines are governed
-                      by individual service agreements.
-                    </li>
-                  </ul>
-                  <p>
-                    The Company reserves the right to refuse or discontinue
-                    services in case of non-payment or misuse.
-                  </p>
-                </div>
-              </section>
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    7. Fees, Payments, and Engagement
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <ul className={`${listPanelClassName} list-disc pl-10`}>
+                      <li>
+                        Fees for services are communicated separately via
+                        proposal, quotation, or engagement letter.
+                      </li>
+                      <li>
+                        Payment terms, scope of work, and timelines are
+                        governed by individual service agreements.
+                      </li>
+                    </ul>
+                    <p>
+                      The Company reserves the right to refuse or discontinue
+                      services in case of non-payment or misuse.
+                    </p>
+                  </div>
+                </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  8. Third-Party Links
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>
-                    This Website may contain links to third-party websites for
-                    convenience. VeloriqIP does not control or endorse such
-                    websites and is not responsible for their content, policies,
-                    or practices.
-                  </p>
-                </div>
-              </section>
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    8. Third-Party Links
+                  </h2>
+                  <div className="mt-5 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>
+                      This Website may contain links to third-party websites for
+                      convenience. Veloriq IP does not control or endorse such
+                      websites and is not responsible for their content,
+                      policies, or practices.
+                    </p>
+                  </div>
+                </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  9. Limitation of Liability
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>To the maximum extent permitted by law:</p>
-                  <ul className="list-disc px-5 py-2 bg-gray-50">
-                    <li>
-                      VeloriqIP shall not be liable for any direct, indirect,
-                      incidental, or consequential damages.
-                    </li>
-                    <li>
-                      We do not guarantee uninterrupted or error-free access to
-                      the Website.
-                    </li>
-                  </ul>
-                  <p>
-                    We are not responsible for decisions taken by users based on
-                    Website information.
-                  </p>
-                </div>
-              </section>
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    9. Limitation of Liability
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>To the maximum extent permitted by law:</p>
+                    <ul className={`${listPanelClassName} list-disc pl-10`}>
+                      <li>
+                        Veloriq IP shall not be liable for any direct, indirect,
+                        incidental, or consequential damages.
+                      </li>
+                      <li>
+                        We do not guarantee uninterrupted or error-free access
+                        to the Website.
+                      </li>
+                    </ul>
+                    <p>
+                      We are not responsible for decisions taken by users based
+                      on Website information.
+                    </p>
+                  </div>
+                </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  10. Indemnification
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>
-                    You agree to indemnify and hold harmless VeloriqIP, its
-                    directors, employees, and associates from any claims,
-                    losses, or liabilities arising from:
-                  </p>
-                  <ul className="list-disc px-5 py-2 bg-gray-50">
-                    <li>Your misuse of the Website.</li>
-                    <li>Violation of these Terms</li>
-                    <li>Infringement of any third-party rights</li>
-                  </ul>
-                  <p>
-                    We are not responsible for decisions taken by users based on
-                    Website information.
-                  </p>
-                </div>
-              </section>
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    10. Indemnification
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>
+                      You agree to indemnify and hold harmless Veloriq IP, its
+                      directors, employees, and associates from any claims,
+                      losses, or liabilities arising from:
+                    </p>
+                    <ul className={`${listPanelClassName} list-disc pl-10`}>
+                      <li>Your misuse of the Website.</li>
+                      <li>Violation of these Terms</li>
+                      <li>Infringement of any third-party rights</li>
+                    </ul>
+                    <p>
+                      We are not responsible for decisions taken by users based
+                      on Website information.
+                    </p>
+                  </div>
+                </section>
+              </div>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  11. Governing Law and Jurisdiction
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>
-                    These Terms shall be governed by and interpreted in
-                    accordance with the laws of India.
-                  </p>
-                  <p>
-                    Any disputes shall be subject to the exclusive jurisdiction
-                    of the courts at [City, State].
-                  </p>
-                </div>
-              </section>
+              <div className="grid gap-6 xl:grid-cols-2">
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    11. Governing Law and Jurisdiction
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>
+                      These Terms shall be governed by and interpreted in
+                      accordance with the laws of India.
+                    </p>
+                    <p>
+                      Any disputes shall be subject to the exclusive
+                      jurisdiction of the courts at [City, State].
+                    </p>
+                  </div>
+                </section>
 
-              <section className="mb-8">
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  12. Modification of Terms
-                </h2>
-                <div className="prose text-gray-600">
-                  <p>
-                    We reserve the right to update or modify these Terms at any
-                    time without prior notice.
-                  </p>
-                  <p>
-                    Continued use of the Website after changes constitutes
-                    acceptance of the revised Terms.
-                  </p>
-                </div>
-              </section>
+                <section className={sectionClassName}>
+                  <h2 className="text-xl font-semibold text-slate-900">
+                    12. Modification of Terms
+                  </h2>
+                  <div className="mt-5 space-y-4 text-sm leading-7 text-slate-600 sm:text-[15px] sm:leading-8">
+                    <p>
+                      We reserve the right to update or modify these Terms at
+                      any time without prior notice.
+                    </p>
+                    <p>
+                      Continued use of the Website after changes constitutes
+                      acceptance of the revised Terms.
+                    </p>
+                  </div>
+                </section>
+              </div>
 
-              <section>
-                <h2 className="text-xl font-semibold text-gray-800 mb-4">
-                  Contact
-                </h2>
-                <div className="bg-gray-50 rounded-lg p-6 flex items-center justify-between">
-                  <p className="text-gray-600">
-                    For any questions or concerns regarding these Terms ? Please
-                    contact:
-                  </p>
+              <section className="rounded-[20px] border border-slate-200 bg-slate-900 p-6 text-white sm:p-8">
+                <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+                  <div className="max-w-2xl">
+                    <h2 className="text-xl font-semibold sm:text-2xl">
+                      Contact
+                    </h2>
+                    <p className="mt-3 text-sm leading-7 text-slate-300 sm:text-[15px] sm:leading-8">
+                      For any questions or concerns regarding these Terms ?
+                      Please contact:
+                    </p>
+                  </div>
                   <a
                     href="mailto:info@veloriqip.com"
-                    className="inline-flex items-center text-[rgb(var(--brand-gold))] hover:text-[rgb(var(--brand-navy))]"
+                    className="inline-flex items-center justify-center gap-2 rounded-md border border-slate-700 bg-slate-800 px-5 py-3 text-sm font-semibold text-white transition hover:bg-slate-700"
                   >
-                    <svg
-                      className="h-5 w-5 mr-2"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                      />
-                    </svg>
+                    <Mail className="h-4 w-4" />
                     Contact Us
                   </a>
                 </div>
               </section>
             </div>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );
