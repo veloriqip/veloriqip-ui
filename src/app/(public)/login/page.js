@@ -1,15 +1,13 @@
 "use client";
 import Link from "next/link";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     toast.error("Incorrect email or password!");
   };
   return (
-    <>
-      <ToastContainer />
-      <form
+    <form
         className="mt-35 mb-20 flex w-full flex-col items-center justify-center max-w-96 m-auto"
         onSubmit={handleSubmit}
       >
@@ -84,6 +82,5 @@ export default function Login() {
           </Link>
         </div>
       </form>
-    </>
   );
 }

@@ -4,6 +4,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 import Clarity from "@/components/Clarity";
 import GlobalFetchLoader from "@/components/GlobalFetchLoader";
 import ChatBot from "@/components/ChatBot";
+import ToastProvider from "@/components/ToastProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -70,6 +71,7 @@ export default function RootLayout({ children }) {
         <GoogleAnalytics gaId={GA_ID}/>
         <Clarity id={CLARITY_ID}/>
         <GlobalFetchLoader />
+        <ToastProvider />
         {children}
         {/* <ChatBot /> */}
       </body>

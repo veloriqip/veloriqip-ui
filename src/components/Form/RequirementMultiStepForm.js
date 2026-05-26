@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 import {
   ArrowLeft,
   ArrowRight,
@@ -200,6 +200,7 @@ function StepRail({ step }) {
 
 export default function RequirementMultiStepForm() {
   const [step, setStep] = useState(1);
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState(() => {
     if (typeof window === "undefined") return initialData;
     const saved = localStorage.getItem(DRAFT_KEY);
@@ -239,6 +240,8 @@ export default function RequirementMultiStepForm() {
       return;
     }
 
+    setIsSubmitting(true);
+
     try {
       const res = await fetch("/api/forms/submit", {
         method: "POST",
@@ -246,15 +249,21 @@ export default function RequirementMultiStepForm() {
         body: JSON.stringify(formData),
       });
       const result = await res.json();
-      console.log(result);
+
+      if (!res.ok) {
+        throw new Error(result.message || "Form submission failed");
+      }
+
+      setFormData(initialData);
+      setStep(1);
+      localStorage.removeItem(DRAFT_KEY);
+      toast.success("Inquiry form submitted successfully.");
     } catch (err) {
       console.error("Form submit error:", err);
+      toast.error(err.message || "Unable to submit the form right now.");
+    } finally {
+      setIsSubmitting(false);
     }
-
-    setFormData(initialData);
-    setStep(1);
-    localStorage.removeItem(DRAFT_KEY);
-    toast.success("Inquiry Form submitted successfully.");
   };
 
   const resetForm = () => {
@@ -274,10 +283,7 @@ export default function RequirementMultiStepForm() {
   const CurrentIcon = currentStepMeta?.icon || ClipboardList;
 
   return (
-    <>
-      <ToastContainer />
-
-      <section className="mt-26 px-4 pb-16 pt-10 sm:px-6 lg:px-8">
+    <section className="mt-26 px-4 pb-16 pt-10 sm:px-6 lg:px-8">
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[40px] border border-[rgb(var(--border))]/70 bg-[linear-gradient(180deg,#f7f4ee_0%,#f9f7f2_45%,#ffffff_100%)] shadow-[0_24px_80px_rgba(15,23,42,0.08)]">
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(0,48,73,0.10),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(181,155,90,0.14),transparent_26%)]" />
           <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.2),transparent_32%,rgba(0,48,73,0.03)_100%)]" />
@@ -628,14 +634,14 @@ export default function RequirementMultiStepForm() {
                     ) : (
                       <button
                         onClick={submitForm}
-                        disabled={!isCurrentStepValid}
+                        disabled={!isCurrentStepValid || isSubmitting}
                         className={`inline-flex items-center justify-center gap-2 rounded-full px-5 py-3 text-sm font-semibold transition duration-300 ${
-                          isCurrentStepValid
+                          isCurrentStepValid && !isSubmitting
                             ? "cursor-pointer bg-[rgb(var(--brand-navy))] text-white hover:bg-[rgb(var(--btn-hover))]"
                             : "cursor-not-allowed bg-slate-300 text-white"
                         }`}
                       >
-                        Submit enquiry
+                        {isSubmitting ? "Submitting..." : "Submit enquiry"}
                         <Send className="h-4 w-4" />
                       </button>
                     )}
@@ -646,7 +652,6 @@ export default function RequirementMultiStepForm() {
           </div>
         </div>
       </section>
-    </>
   );
 }
 

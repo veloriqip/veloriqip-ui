@@ -1,14 +1,28 @@
 import { connectToDB } from "@/app/lib/db";
 import { enquiryEmailTemplate } from "@/app/lib/emailTemplates";
-import { sendAdminEmail } from "@/app/lib/mailer";
+import { isValidEmail, normalizeEmail, sendAdminEmail } from "@/app/lib/mailer";
 
 export async function POST(req) {
   try {
-    const data = await req.json();
+    const body = await req.json();
+    const data = {
+      ...body,
+      fullName: body?.fullName?.trim() || "",
+      email: normalizeEmail(body?.email),
+      organization: body?.organization?.trim() || "",
+      source: body?.source?.trim() || "",
+    };
 
     if (!data.fullName || !data.email) {
       return new Response(
         JSON.stringify({ message: "Missing required fields" }),
+        { status: 400 }
+      );
+    }
+
+    if (!isValidEmail(data.email)) {
+      return new Response(
+        JSON.stringify({ message: "Please enter a valid email address" }),
         { status: 400 }
       );
     }
@@ -29,8 +43,12 @@ export async function POST(req) {
     );
   } catch (err) {
     console.error(err);
-    return new Response(JSON.stringify({ message: "Server error" }), {
-      status: 500,
-    });
+    const status =
+      err.message === "Invalid reply-to email address" ? 400 : 500;
+
+    return new Response(
+      JSON.stringify({ message: err.message || "Server error" }),
+      { status }
+    );
   }
 }

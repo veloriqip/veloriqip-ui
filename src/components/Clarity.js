@@ -1,7 +1,7 @@
 import Script from "next/script";
 
 export default function Clarity({ id }) {
-  if (!id) return null;
+  if (!id || process.env.NODE_ENV !== "production") return null;
 
   return (
     <Script id="clarity" strategy="afterInteractive">

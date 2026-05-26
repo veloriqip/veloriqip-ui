@@ -1,8 +1,7 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import { useState } from "react";
 export default function Footer() {
   
@@ -46,9 +45,7 @@ export default function Footer() {
   };
 
   return (
-    <>
-      <ToastContainer />
-      <footer
+    <footer
         className="bg-black py-12 px-4 sm:px-6 lg:px-8"
         style={{ backgroundColor: "gainsboro" }}
       >
@@ -56,11 +53,12 @@ export default function Footer() {
           <div className="flex flex-wrap justify-between gap-y-12 lg:gap-x-8">
             <div className="w-full md:w-[45%] lg:w-[35%] flex flex-col items-center md:items-start text-center md:text-left">
               <Link href="/" className="flex items-center gap-2">
-                <Image
+                <img
                   src="/logo.svg"
                   alt="Description of my image"
                   width={250}
                   height={40}
+                  className="block h-auto w-[250px]"
                 />
               </Link>
 
@@ -215,6 +213,5 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </>
   );
 }

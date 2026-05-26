@@ -1,7 +1,6 @@
 "use client"
 
 import React from "react";
-import Image from 'next/image';
 import Link from "next/link";
 import { useRouter } from 'next/navigation'
 
@@ -24,11 +23,12 @@ export const Navbar = () => {
 
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2">
-                    <Image
+                    <img
                         src="/logo.svg"
                         alt="Brand Logo"
                         width={250}
                         height={70}
+                        className="block h-auto w-[250px]"
                     />
                 </Link>
 

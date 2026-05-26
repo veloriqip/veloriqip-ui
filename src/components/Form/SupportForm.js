@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
 
 export default function SupportForm() {
   const [loading, setLoading] = useState(false);
@@ -40,9 +40,7 @@ export default function SupportForm() {
   }
 
   return (
-    <>
-      <ToastContainer />
-      <form
+    <form
         onSubmit={handleSubmit}
         className="flex flex-col items-center text-sm text-slate-800 w-full mt-35 mb-20"
       >
@@ -102,6 +100,5 @@ export default function SupportForm() {
           </button>
         </div>
       </form>
-    </>
   );
 }
