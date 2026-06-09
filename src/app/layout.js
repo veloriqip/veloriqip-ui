@@ -65,8 +65,6 @@ const CLARITY_ID = process.env.NEXT_PUBLIC_CLARITY_ID;
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-      </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <GoogleAnalytics gaId={GA_ID}/>
         <Clarity id={CLARITY_ID}/>

@@ -1,17 +1,19 @@
-import Script from "next/script";
+"use client";
+
+import { useEffect } from "react";
+import ClaritySDK from "@microsoft/clarity";
+
+let hasInitialized = false;
 
 export default function Clarity({ id }) {
-  if (!id || process.env.NODE_ENV !== "production") return null;
+  useEffect(() => {
+    if (!id || process.env.NODE_ENV !== "production" || hasInitialized) {
+      return;
+    }
 
-  return (
-    <Script id="clarity" strategy="afterInteractive">
-      {`
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "${id}");
-      `}
-    </Script>
-  );
+    ClaritySDK.init(id);
+    hasInitialized = true;
+  }, [id]);
+
+  return null;
 }
