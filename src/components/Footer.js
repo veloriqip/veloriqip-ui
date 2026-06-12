@@ -138,7 +138,7 @@ export default function Footer() {
                   Instagram
                 </a>
                 <a
-                  href="https://www.youtube.com/@Veloriq IP"
+                  href="https://www.youtube.com/@VeloriqIP"
                   target="_blank"
                   className="text-sm text-[rgb(var(--brand-navy))] hover:text-[rgb(var(--btn-hover))] transition-colors"
                 >
