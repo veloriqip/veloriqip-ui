@@ -52,12 +52,6 @@ const highlightStats = [
     suffix: "+",
     note: "Support across founders, MSMEs, institutions, and teams.",
   },
-  {
-    label: "Client Retention",
-    value: 96,
-    suffix: "%",
-    note: "Repeat trust built through reliability and clarity.",
-  },
 ];
 
 function AnimatedNumber({ value, suffix = "" }) {
@@ -337,29 +331,6 @@ export default function MetricsSectionV2() {
                 >
                   <div className="h-[360px]">
                     <StatsBarChart />
-                  </div>
-                </ChartShell>
-
-                <ChartShell
-                  title="Retention strength"
-                  subtitle="Client retention remains one of the clearest trust signals in service businesses."
-                  footer="Retention is shown alongside churn to keep the picture balanced."
-                >
-                  <div className="grid gap-5 lg:grid-cols-[150px_minmax(0,1fr)] xl:grid-cols-1">
-                    <div className="rounded-[24px] border border-slate-200/80 bg-slate-50/80 p-5">
-                      <p className="text-xs font-semibold uppercase tracking-[0.22em] text-slate-500">
-                        Current Signal
-                      </p>
-                      <p className="mt-3 text-5xl font-semibold text-slate-900">
-                        96%
-                      </p>
-                      <p className="mt-2 text-sm leading-6 text-slate-600">
-                        retained client relationships
-                      </p>
-                    </div>
-                    <div className="h-[280px]">
-                      <RetentionChart />
-                    </div>
                   </div>
                 </ChartShell>
               </div>

@@ -70,7 +70,6 @@ export default function MetricsSection() {
     { value: 2, suffix: "+", label: "Years Experience" },
     { value: 12, suffix: "+", label: "IP Service Verticals" },
     { value: 24, suffix: "+", label: "Clients Served" },
-    { value: 96, suffix: "%", label: "Client Retention" },
   ];
 
   return (
